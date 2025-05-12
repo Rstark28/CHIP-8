@@ -492,9 +492,6 @@ void exec_instruction()
                 break;
 
         case 0x05: // Skip if VX equals VY
-                if (N != 0) {
-                        break;
-                }
                 if (chip8.V[X] == chip8.V[Y]) {
                         chip8.PC += 2;
                 }
