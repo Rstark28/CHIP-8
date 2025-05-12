@@ -1,0 +1,35 @@
+# CHIP-8 Emulator
+
+This project is a CHIP-8 emulator written to emulate the CHIP-8 virtual machine. CHIP-8 is a simple, interpreted programming language designed in the 1970s for creating games on 8-bit microcomputers.
+
+## Features
+
+- Emulates the CHIP-8 instruction set.
+- Supports loading and running CHIP-8 ROMs.
+- Implements a virtual display, memory, and input system.
+
+## Requirements
+
+- A modern C++ compiler (if written in C++) or the appropriate runtime for the language used.
+- SDL2 (if using graphical output).
+- CHIP-8 ROM files to run.
+
+## Usage
+
+1. Clone the repository.
+2. Build the project using the provided build instructions.
+3. Run the emulator and load a CHIP-8 ROM file.
+
+## About CHIP-8
+
+CHIP-8 is a simple virtual machine with the following characteristics:
+- 4KB of memory.
+- 16 registers (V0 to VF).
+- A 64x32 pixel monochrome display.
+- A hexadecimal keypad (0-9, A-F).
+
+It was originally used to create simple games like Pong, Tetris, and Space Invaders.
+
+## Disclaimer
+
+This emulator is a learning project and may not fully support all CHIP-8 features or ROMs. Contributions and feedback are welcome!
