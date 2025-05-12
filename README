@@ -10,7 +10,6 @@ This project is a CHIP-8 emulator written to emulate the CHIP-8 virtual machine.
 
 ## Requirements
 
-- A modern C++ compiler (if written in C++) or the appropriate runtime for the language used.
 - SDL2 (if using graphical output).
 - CHIP-8 ROM files to run.
 
@@ -32,4 +31,4 @@ It was originally used to create simple games like Pong, Tetris, and Space Invad
 
 ## Disclaimer
 
-This emulator is a learning project and may not fully support all CHIP-8 features or ROMs. Contributions and feedback are welcome!
+This may suck idk. Send contributions and feedback!
